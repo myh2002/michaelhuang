@@ -1,0 +1,75 @@
+.history {
+  width: 100%;
+  background: #eee;
+}
+.history>li {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 8px 0;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+.history>li .history_image {
+  min-width: 64px;
+  height: 64px;
+  border-radius: 2px;
+  margin: 16px;
+  margin-right: 0;
+}
+.history>li .history_info {
+  margin: 16px;
+  position: relative;
+  flex-grow: 100;
+}
+.history>li .history_info .history_rest_name {
+  font-weight: 500;
+  padding-bottom: 4px;
+}
+.history>li .history_info .history_row {
+  font-size: 0.85em;
+  padding: 2px 0;
+  color: #333;
+}
+.history>li .history_info .history_row i {
+  padding-right: 6px;
+  color: #999;
+}
+.history>li .history_info .history_points {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+.history>li .history_info .history_points div {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9em;
+  height: 100%;
+  position: relative;
+  color: #FEAB6C;
+}
+.history>li .history_info .history_points div i {
+  padding: 8px 0;
+}
+.history>li .history_info .history_points div.history_access {
+  color: #878787;
+}
+.history>li .actions {
+  width: 100%;
+}
+.history>li .actions li {
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #DA3743;
+  height: 48px;
+  padding: 0 16px;
+  border-top: 1px solid #eee;
+}
+.history>li .actions li span {
+  padding: 0 4px;
+}
